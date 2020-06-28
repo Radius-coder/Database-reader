@@ -1,0 +1,76 @@
+
+        
+h1{
+            font-size: 50px;
+			font-family: Arial;
+			padding:10px;
+            }
+            .header{
+                border-bottom: 5px solid white;
+                background-color: #005eb8;
+				color:white;
+				height: 220px;
+				
+                /*Testing 2 backgrounds positioning*/
+                
+            background-position: right bottom, left top;
+            background-repeat: no-repeat, repeat;
+        }
+
+    
+        
+/* Create one main article */
+        .column {
+	  background-color: rgb(47, 151, 255);
+          float: center;
+          padding: 4px;
+          height: 550px;
+		  width: 100%; 	
+	  
+          }
+
+        .middle {
+        float: center;
+          text-align: center; 
+		  width: 99.6%;
+        }
+
+
+        /*Responsive layout columns */
+        @media screen and (max-width: 600px) {
+          .column.middle {
+            width: 100%;
+          }
+        }
+            
+            
+.footer{
+	
+	background-color: #005eb8;
+	text-align: center;
+	padding: 60px;
+	
+	
+}
+
+input[type=submit] {
+	background-color: #005eb8;
+							width: 20em;  height: 3em;
+							
+							font-size: 40px;
+							color: white;
+							font-family: Arial;
+							 font-weight: bold;
+			}	
+			
+			
+input[type=text] {
+	background-color: white;
+	text-align: center;
+							width: 26em;  height: 3em;
+							border: 2px solid black;
+						
+							font-size: 30px;
+							color: black;
+							font-family: Frutiger;
+			}	
